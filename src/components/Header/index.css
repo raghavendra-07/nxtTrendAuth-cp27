@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.website-logo {
+  height: 10%;
+  width: 15%;
+}
+
+.nav-menu-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #475569;
+  font-family: 'Roboto';
+  margin-right: 14px;
+}
+
+.logout-desktop-btn {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: 1px solid #0b69ff;
+  padding: 8px;
+  width: 90px;
+}
